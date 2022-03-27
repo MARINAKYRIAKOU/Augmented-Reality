@@ -1,9 +1,9 @@
 # Lesson: Interaction Design
 
-### First and Last Name: xxx
-### University Registration Number: dpsdxxxxx
-### GitHub Personal Profile: xxx
-### Augmented Reality Personal Repository: xxx
+### First and Last Name: Faidra Damianou
+### University Registration Number: dpsd19028
+### GitHub Personal Profile: https://github.com/FaidraDamianou
+### Augmented Reality Personal Repository: https://faidradamianou.github.io/Augmented-Reality/
 
 # Introduction
 
