@@ -20,9 +20,28 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-        <a-marker preset="hiro">
-            <a-entity id="box" geometry="primitive: box; width: 0.2; depth: 0.2; height: 0.2" position="0 0 0" material="color: #4CC3D9"></a-entity>
+        <a-marker preset="hiro"> <!--entopish tou HIRO-->
+
+           <!--XIONI KAI NEO VERSION TON SXHMATON-->
+            <a-entity id="annyang" annyang-speech-recognition></a-entity>
+
+            <a-sphere id="sphere" geometry="primitive: sphere; radius: 0.4; " material=" color: #74DAD3;" position="0 0 0"> </a-sphere> <!--sfaira-->
+           
+            <a-entity id="box" geometry="primitive: box; width: 1; depth: 1; height: 1" position="-1 0 -1" material="color: #EBC85A"></a-entity><!--kybos-->
+           
+            <a-cylinder id="cylinder" geometry="primitive: cylinder; radius: 0.3; height: 0.3;" material="color: #EB775A" position="1 0 1"> </a-cylinder> <!--kylindros-->
+             
+            <a-entity id="snow" speech-command_show="command:start;type:attribute; attribute:visible; value:true;" speech-command_hide="command:stop; type:attribute;attribute:visible; value:false;" position="0 2.25 -15"
+            particle-system="preset:snow; size:4; particleCount:2300;"></a-entity>
+            
         </a-marker>
+        
+        
+</a-entity>
+
+        <a-entity microphone></a-entity>
+
+
         <a-entity camera></a-entity>
         </a-scene>
     </body>
